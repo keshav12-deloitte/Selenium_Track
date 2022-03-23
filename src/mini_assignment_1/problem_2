@@ -1,14 +1,14 @@
 Problem 2- Write Xpath for Below Web elements using Xpath Axes (such as preceding,
 following, ancestor, following-sibling etc..)
 
-Check in - Calendar Icon   //div[class()='form-group']/following-sibling::class = 'la la-calendar form-icon'
+Check in - Calendar Icon   //div[@class='form-group']//child::span[@class='la la-calendar form-icon']
 
-Check Out – Calendar Icon
+Check Out – Calendar Icon   //input[@name='checkout']//preceding-sibling::span[@class='la la-calendar form-icon']
 
-“- ” for Adults
+“- ” for Adults  //input[@value='2']//preceding-sibling::div[@class='qtyDec']
 
-“+” for Adults
+“+” for Adults   //input[@value='2']//following-sibling::div[@class='qtyInc']
 
-“-“ for Childs
+“-“ for Childs    //input[@id='childs']//preceding-sibling::div[@class='qtyDec']//child::i[@class='la la-minus']
 
-“+” for Childs
+“+” for Childs  //input[@id='childs']//following-sibling::div[@class='qtyInc']//child::i[@class='la la-plus']
