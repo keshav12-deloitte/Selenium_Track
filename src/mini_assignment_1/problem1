@@ -1,0 +1,15 @@
+•	PHPTRAVLES Logo  Xpath :\\ img[@style()=’https://phptravels.net/api/uploads/global/logo.png’
+•	Home                     Xpath :\\a[@href()=’https://www.phptravels.net/’]
+•	Flights                  Xpath :\\a[@href()=’https://www.phptravels.net/flights’]
+•
+•	Tours                    Xpath :\\a[@href()=’https:// https://www.phptravels.net/tours’]
+•
+•
+•	Company                  Xpath :\\a[@href()=’company’]
+
+•	Signup Btn               Xpath :\\a[@href()=’ https://www.phptravels.net/signup’]
+•
+•	Login Btn                Xpath :\\a[@href()=’ https://www.phptravels.net/login’]
+•
+•	Agents DropDown          Xpath:\\button[@id()=’agents’]
+
