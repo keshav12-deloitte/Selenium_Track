@@ -1,4 +1,4 @@
-•	PHPTRAVLES Logo  Xpath :\\ img[@style()=’https://phptravels.net/api/uploads/global/logo.png’
+•	PHPTRAVLES Logo  Xpath :\\ img[@src()=’https://phptravels.net/api/uploads/global/logo.png’
 •	Home                     Xpath :\\a[@href()=’https://www.phptravels.net/’]
 •	Flights                  Xpath :\\a[@href()=’https://www.phptravels.net/flights’]
 •
@@ -13,3 +13,14 @@
 •
 •	Agents DropDown          Xpath:\\button[@id()=’agents’]
 
+
+
+Absolute Xpath :
+ PHPTRAVLES Logo        /html/body/header/div[2]/div/div/div/div/div[1]/a/img
+ Home                   /html/body/header/div[2]/div/div/div/div/div[2]/nav/ul/li[1]/a
+ Flights                /html/body/header/div[2]/div/div/div/div/div[2]/nav/ul/li[3]/a
+ Tours                  /html/body/header/div[2]/div/div/div/div/div[2]/nav/ul/li[4]/a
+ Company                /html/body/header/div[2]/div/div/div/div/div[2]/nav/ul/li[8]/a
+ Signup Btn             /html/body/header/div[1]/div/div/div[2]/div/div/a[1]
+ Login Btn              /html/body/header/div[1]/div/div/div[2]/div/div/a[2]
+ Agents DropDown        /html/body/header/div[1]/div/div/div[2]/div/div/div[4]/div/buttons
