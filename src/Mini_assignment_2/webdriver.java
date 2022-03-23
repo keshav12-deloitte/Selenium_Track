@@ -11,6 +11,7 @@ public class webdriver {
         System.setProperty("webdriver.chrome.driver","C:\\selenium jars and drivers\\drivers\\chrome drivers\\chromedriver.exe");
         WebDriver driver =new ChromeDriver();
         driver.get("https://phptravels.com/demo");
+        String parent = driver.getWindowHandle();
         if (driver.getTitle().contains("PHPTRAVELS"))
             System.out.println("Page title contains\"PHPTRAVELS");
         else
@@ -25,7 +26,18 @@ public class webdriver {
         }
         else
             System.out.println("Fail");
-        Thread.sleep(8000);
+        Thread.sleep(5000);
+        driver.switchTo().window(parent);
+                Thread.sleep(3000);
+                String url=driver.getCurrentUrl();
+        System.out.println(url);
+        Thread.sleep(3000);
+        driver.findElement(By.xpath("//a[@href='https://phptravels.com/order']")).click();
+        Thread.sleep(3000);
+        driver.navigate().back();
+        Thread.sleep(2000);
+        driver.navigate().refresh();
+        Thread.sleep(2000);
         driver.quit();
 
     }
