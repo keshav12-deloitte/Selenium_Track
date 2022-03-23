@@ -1,7 +1,7 @@
 Problem 2- Write Xpath for Below Web elements using Xpath Axes (such as preceding,
 following, ancestor, following-sibling etc..)
 
-Check in - Calendar Icon
+Check in - Calendar Icon   //div[class()='form-group']/following-sibling::class = 'la la-calendar form-icon'
 
 Check Out – Calendar Icon
 
